@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="180" height="180" rx="45" fill="#4F46E5"/>
+  
+  <!-- Play button circle -->
+  <circle cx="90" cy="90" r="45" fill="white"/>
+  
+  <!-- Play button triangle -->
+  <path d="M81 70L108 90L81 110V70Z" fill="#4F46E5"/>
+  
+  <!-- Outer ring -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M90 25C54.1015 25 25 54.1015 25 90C25 125.899 54.1015 155 90 155C125.899 155 155 125.899 155 90C155 54.1015 125.899 25 90 25ZM90 140C62.3858 140 40 117.614 40 90C40 62.3858 62.3858 40 90 40C117.614 40 140 62.3858 140 90C140 117.614 117.614 140 90 140Z" fill="white" fill-opacity="0.2"/>
+  
+  <!-- Video reel details -->
+  <path d="M155 90C155 125.899 125.899 155 90 155C54.1015 155 25 125.899 25 90" stroke="white" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 8"/>
+</svg>

@@ -1,0 +1,50 @@
+{
+  "name": "VideoShortsAI",
+  "short_name": "VideoShortsAI",
+  "description": "Transform long videos into engaging short clips with AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4F46E5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/apple-touch-icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/icons/safari-pinned-tab.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Upload Video",
+      "short_name": "Upload",
+      "description": "Upload a new video",
+      "url": "/upload",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "512x512", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your videos",
+      "url": "/dashboard",
+      "icons": [{ "src": "/icons/icon.svg", "sizes": "512x512", "type": "image/svg+xml" }]
+    }
+  ],
+  "categories": ["video", "productivity", "utilities"],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr"
+}
